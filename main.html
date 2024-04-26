@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+
+    
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container2 {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .college-name {
+            font-size: 24px;
+            color: #FF69B4; /* Slight pink color */
+        }
+        .address {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .about-section {
+            margin-top: 50px;
+            text-align: left;
+            padding: 20px;
+            background-color: #FCE4EC; /* Light pink background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .photo-gallery {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #FFF59D; /* Light yellow background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .photo {
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .activities-section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #B2EBF2; /* Light blue background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .activity {
+            margin-bottom: 20px;
+        }
+        .admission-process {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #C8E6C9; /* Light green background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .admission-step {
+            margin-bottom: 20px;
+        }
+        .registration-link {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 10px 20px;
+            background-color: #FF69B4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .registration-link:hover {
+            background-color: #E6408C;
+        }
+        .contact-section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #FFAB91; /* Light orange background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }        
+
+        header.masthead {
+        margin-bottom: 50px;
+        background: no-repeat center center;
+        background-color: #868e96;
+        background-attachment: scroll;
+        position: relative;
+        background-size: cover;
+        }
+
+        header.masthead .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #212529;
+        opacity: 0.5;
+        }
+
+        header.masthead .page-heading,
+        header.masthead .post-heading,
+        header.masthead .site-heading {
+        padding: 200px 0 150px;
+        color: rgb(67, 255, 30);
+        }
+
+        @media only screen and (min-width: 768px) {
+        header.masthead .page-heading,
+        header.masthead .post-heading,
+        header.masthead .site-heading {
+            padding: 200px 0;
+        }
+        }
+
+        header.masthead .page-heading,
+        header.masthead .site-heading {
+        text-align: center;
+        }
+
+        header.masthead .page-heading h1,
+        header.masthead .site-heading h1 {
+        font-size: 50px;
+        margin-top: 0;
+        }
+
+        header.masthead .page-heading .subheading,
+        header.masthead .site-heading .subheading {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.1;
+        display: block;
+        margin: 10px 0 0;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        @media only screen and (min-width: 768px) {
+        header.masthead .page-heading h1,
+        header.masthead .site-heading h1 {
+            font-size: 80px;
+        }
+        }
+
+        
+
+        @media only screen and (min-width: 768px) {
+        header.masthead .post-heading h1 {
+            font-size: 55px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    
+
+    <header class="masthead" style="background-image: url('./images/home.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="site-heading">
+                <h1>Kirori Mal College</h1>
+                <span class="subheading">South Campus, Delhi University</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <div class="container2">
+        <!-- <div class="college-details">
+            <div class="college-name">KIRORI MAL COLLEGE<br>South Campus, Delhi University</div>
+            <div class="address">Delhi</div>
+        </div> -->
+        
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to Kirori Mal College, an institution of academic excellence, established in 1954, that has always strived to, and successfully maintained its place as one of the finest within the University of Delhi.</p>
+        </div>
+        
+        <div class="photo-gallery">
+            <h2>Photo Gallery</h2>
+            <div class="photo">
+                <img src="./images/photo1.jpg" alt="Photo 1">
+            </div>
+            <div class="photo">
+                <img src="./images/photo2.jpg" alt="Photo 2">
+            </div>
+            <div class="photo">
+                <img src="./images/photo3.jpg" alt="Photo 3">
+            </div>
+            <!-- Add more photos here -->
+        </div>
+
+        <div class="activities-section" style="background-color: #80DEEA;">
+            <h2>Recent Activities</h2>
+            <div class="activity">
+                Prayas, the college's PwD cell, supports differently-abled students academically and promotes their participation in extracurricular activities. It offers reading and writing services, organizes events like the Annual festival and Freshers' Talent show, and collaborates with organizations for workshops and training programs. Visually impaired students received scholarships from Help the Blind Foundation and the National Scholarship Portal.
+            </div>    
+        </div>
+
+        <div class="admission-process" style="background-color: #C5E1A5;">
+            <h2>Admission Process</h2>
+            <div class="admission-step">
+                <h3>1. Fill out the application form on the <a href="https://admission.uod.ac.in/">University website.</a></h3>
+            </div>
+            <div class="admission-step">
+                <h3>2. Pass the<a href="https://exams.nta.ac.in/CUET-UG/">University Entrance Test (CUET).</a></h3>
+            </div>
+            <div class="admission-step">
+                <h3>3. Qualify for the cutoff marks.</h3>
+            </div>
+            <div class="admission-step">
+                <h3>4. Undergo a counseling process.</h3>
+            </div>
+            <div class="admission-step">
+                <h3>5. Visit the college to verify documents and pay the required fee.</h3>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <h3>Admission Cell</h3>
+                <p>Contact Person: DR. DINESH KHATTAR</p>
+                <p>Contact number: 9599036361</p>
+                <p>Email: <a href="mailto:actingprincipal@kmcollege.ac.in">actingprincipal@kmcollege.ac.in</a></p>
+                <p>Official Website: <a href="https://kmc.du.ac.in/" target="_blank">www.kmcollege.ac.in</a></p>
+            </div>
+        </div>
+
+        <a class="registration-link" href="https://admission.uod.ac.in/" target="_blank">Download Registration Form</a>
+
+    </div>
+
+</body>
+
+</html>
